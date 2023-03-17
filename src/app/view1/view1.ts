@@ -39,7 +39,7 @@ export default class View1 extends LitElement {
       height: max-content;
       min-width: min-content;
     }
-    .text {
+    .content {
       height: max-content;
       min-width: min-content;
     }
@@ -70,7 +70,7 @@ export default class View1 extends LitElement {
         <h5 class="h5">
           View 1
         </h5>
-        <p class="typography__body-1 text">
+        <p class="typography__body-1 content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <igc-calendar ?hide-header="${false}" header-orientation="horizontal" class="calendar"></igc-calendar>
@@ -109,6 +109,9 @@ export default class View1 extends LitElement {
             </igc-icon-button>
           </igc-card-actions>
         </igc-card>
+        <a class="typography__body-1 content">
+          This is a link
+        </a>
       </div>
     `;
   }
