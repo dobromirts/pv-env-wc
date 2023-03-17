@@ -112,6 +112,12 @@ export default class View1 extends LitElement {
         <a class="typography__body-1 content">
           This is a link
         </a>
+        <a class="typography__body-1 content">
+          This is a link
+        </a>
+        <p class="typography__body-1 content">
+          Body 1
+        </p>
       </div>
     `;
   }
