@@ -11,6 +11,10 @@ export default class View3 extends LitElement {
       align-items: stretch;
       align-content: flex-start;
     }
+    .text {
+      height: max-content;
+      min-width: min-content;
+    }
   `;
 
   render() {
@@ -18,6 +22,9 @@ export default class View3 extends LitElement {
       <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
       <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet'>
       <link rel='stylesheet' href='../../ig-theme.css'>
+      <p class="typography__body-1 text">
+        Body 1
+      </p>
     `;
   }
 }
