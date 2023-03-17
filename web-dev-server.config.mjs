@@ -17,6 +17,8 @@ export default /** @type {import('@web/dev-server').DevServerConfig} */ ({
 
   /** Set appIndex to enable SPA routing */
   appIndex: './index.html',
+  
+    /** Manual changes */
 
   plugins: [
     /** Use Hot Module Replacement by uncommenting. Requires @open-wc/dev-server-hmr plugin */
